@@ -26,4 +26,12 @@ launchURL();
 
     }
 
+    // Product Search
+    @When("I enter {string} in the search field")
+    public void iEnterInTheSearchField(String arg0) {
+    }
+
+    @Then("{string} is displayed")
+    public void isDisplayed(String arg0) {
+    }
 }
