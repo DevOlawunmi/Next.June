@@ -1,16 +1,17 @@
 package co.uk.next.stepDefinitions;
 
+import co.uk.next.pages.BasePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class StepDefinitions {
+public class StepDefinitions extends BasePage {
     @Given("I navigate to next website")
     public void i_navigate_to_next_website() {
-
+launchURL();
     }
 
-    @When("I click on the header")
+    @When("I click on the homepage header")
     public void i_click_on_the_homepage_header() {
 
     }
