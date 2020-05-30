@@ -8,7 +8,8 @@ Feature: Product Search
   Scenario Outline: User can successfully search products
 
     When I enter "<product>" in the search field
-    Then "<product>" is displayed
+    Then a list of "<product>" is displayed
+    And I click on any of the displayed products
 
     Examples:
       |product|

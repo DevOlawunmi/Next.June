@@ -1,6 +1,7 @@
 package co.uk.next.stepDefinitions;
 
 import co.uk.next.pages.BasePage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -31,7 +32,13 @@ launchURL();
     public void iEnterInTheSearchField(String arg0) {
     }
 
-    @Then("{string} is displayed")
-    public void isDisplayed(String arg0) {
+    @Then("a list of {string} is displayed")
+    public void aListOfIsDisplayed(String arg0) {
     }
+
+    @And("I click on any of the displayed products")
+    public void iClickOnAnyOfTheDisplayedProducts() {
+    }
+
+
 }
