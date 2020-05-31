@@ -1,3 +1,4 @@
+@unfinished
 Feature: Search Summer Styles
   As a user
   I want to search summer styles

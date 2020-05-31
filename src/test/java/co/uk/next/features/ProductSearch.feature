@@ -14,6 +14,6 @@ Feature: Product Search
     Examples:
       |product|
       |bra|
-      |ladies bag|
-
-
+#      |ladies bag|
+#
+#

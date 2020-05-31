@@ -1,12 +1,15 @@
 package co.uk.next.stepDefinitions;
 
 import co.uk.next.pages.BasePage;
+import co.uk.next.pages.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
 public class StepDefinitions extends BasePage {
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     @Given("I navigate to next website")
     public void i_navigate_to_next_website() {
 launchURL();
@@ -29,7 +32,8 @@ launchURL();
 
     // Product Search
     @When("I enter {string} in the search field")
-    public void iEnterInTheSearchField(String arg0) {
+    public void iEnterInTheSearchField(String product) {
+        homePage.enterSearchItem(product);
     }
 
     @Then("a list of {string} is displayed")
