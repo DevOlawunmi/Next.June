@@ -12,6 +12,8 @@ public class HomePage extends BasePage {
     }
     @FindBy (id = "sli_search_1")
     private WebElement searchField;
+    @FindBy (xpath = "//*[@id=\"module12-4vn5g9dshnhnejemqpwmwt1a8\"]/div/map/area[1]")
+    private WebElement summerStylesLink;
 
 
 
