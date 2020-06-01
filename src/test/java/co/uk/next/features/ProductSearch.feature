@@ -8,6 +8,7 @@ Feature: Product Search
   Scenario Outline: User can successfully search products
 
     When I enter "<product>" in the search field
+    And I click on the search button
     Then a list of "<product>" is displayed
     And I click on any of the displayed products
 
