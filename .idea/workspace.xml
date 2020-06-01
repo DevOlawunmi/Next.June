@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8eb232-ed3a-4aab-9133-2b12eaeb2635" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/features/SearchNavigationLinks.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/features/ProductSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/features/ProductSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590927302616</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Product Search successful, search result displayed">
+      <created>1590987224221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590987224221</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,17 +184,18 @@
     <MESSAGE value="Product Search Feature added" />
     <MESSAGE value="BasePage created" />
     <MESSAGE value="Product Search successful" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product Search successful" />
+    <MESSAGE value="Product Search successful, search result displayed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Search successful, search result displayed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590814166018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590814166018" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1590927301986">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1590987223540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590927301986" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590987223540" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1590987167704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,9 +212,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590987167704" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1590927305089">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1590987230107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590927305089" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590987230107" />
   </component>
 </project>
