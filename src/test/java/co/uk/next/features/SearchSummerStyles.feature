@@ -8,7 +8,6 @@ Feature: Search Summer Styles
 
   Scenario: User can successfully search summer items
 
-
     When I click on the homepage header
     Then a list of summer essentials is displayed
     And I click on any
