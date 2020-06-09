@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/java/co/uk/next/features"},
         plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
         glue = {"co/uk/next/hook","co/uk/next/stepDefinitions"},
-        tags = {"not @unfinished"}
+        tags = {"not @unfinished", "not @QAready"}
 )
 
 public class TestRunner {

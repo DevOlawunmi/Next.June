@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+import java.util.Random;
+
 public class HomePage extends BasePage {
     public HomePage(WebDriver driver){
         DriverLib.driver = driver;
@@ -17,6 +20,8 @@ public class HomePage extends BasePage {
     private WebElement searchButton;
     @FindBy (xpath = "//*[@id=\"module12-4vn5g9dshnhnejemqpwmwt1a8\"]/div/map/area[1]")
     private WebElement summerStylesLink;
+    @FindBy (className = "PrimarynavlinksLink")
+    private List<WebElement> searchLinks;
 
 
 
@@ -27,5 +32,11 @@ public class HomePage extends BasePage {
     public SearchResultPage clickOnSearchButton()
     {searchButton.click();
     return new SearchResultPage(driver);
+    }
+    public SearchResultPage clickOnAnyHeader(){
+        Random random = new Random();
+       int randomNumber =  random.nextInt(searchLinks.size()-1);
+       searchLinks.get(randomNumber).click();
+       return new SearchResultPage(driver);
     }
 }

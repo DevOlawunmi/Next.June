@@ -52,6 +52,13 @@ launchURL();
     public void iClickOnAnyOfTheDisplayedProducts() {
     }
 
+//Search Navigation Links
+    @When("I click on any departmental link")
+    public void iClickOnAnyDepartmentalLink() {
+homePage.clickOnAnyHeader();
+    }
 
-
+    @Then("a list of items in the department is displayed")
+    public void aListOfItemsInTheDepartmentIsDisplayed() {
+    }
 }

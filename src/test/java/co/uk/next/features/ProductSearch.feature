@@ -1,3 +1,4 @@
+@QAready
 Feature: Product Search
   As a user
   I want to be able to search a product
