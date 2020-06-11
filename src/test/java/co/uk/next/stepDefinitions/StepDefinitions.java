@@ -61,4 +61,8 @@ homePage.clickOnAnyHeader();
     @Then("a list of items in the department is displayed")
     public void aListOfItemsInTheDepartmentIsDisplayed() {
     }
+
+    @And("I click on a random product")
+    public void iClickOnARandomProduct() {
+    }
 }

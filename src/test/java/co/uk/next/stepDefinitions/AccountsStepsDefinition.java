@@ -22,5 +22,6 @@ public class AccountsStepsDefinition extends BasePage {
 
     @Then("my account summary is displayed")
     public void myAccountSummaryIsDisplayed() {
+
     }
 }

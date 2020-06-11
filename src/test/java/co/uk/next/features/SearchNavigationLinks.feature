@@ -10,4 +10,4 @@ Feature: Search Navigation Links
 
     When I click on any departmental link
     Then a list of items in the department is displayed
-    And I click on any
+    And I click on a random product

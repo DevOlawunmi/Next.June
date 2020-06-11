@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8eb232-ed3a-4aab-9133-2b12eaeb2635" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/features/SignIntoMyAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/AccountsStepsDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/features/SearchNavigationLinks.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/features/SearchNavigationLinks.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/AccountsStepsDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/AccountsStepsDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/next/stepDefinitions/StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591798394652</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Sign in to my Account feature added">
+      <created>1591851495308</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591851495308</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,37 +231,38 @@
     <MESSAGE value="Product Search successful, search result displayed" />
     <MESSAGE value="Navigation Link Search added" />
     <MESSAGE value="Navigation Link Search successful" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation Link Search successful" />
+    <MESSAGE value="Sign in to my Account feature added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign in to my Account feature added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590814166018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590814166018" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1591798394047">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1591851494673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591798394047" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591672819493">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591851494673" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591851823043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591672819493" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591672819492">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591851823043" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591851823043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591672819492" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591672819492">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591851823043" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591851823042">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591672819492" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591672819492">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591851823042" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591851823043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591672819492" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1591798397537">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591851823043" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1591851499039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591798397537" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591851499039" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1591836807952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
