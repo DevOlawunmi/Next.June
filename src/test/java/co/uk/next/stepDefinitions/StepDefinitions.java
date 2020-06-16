@@ -64,5 +64,6 @@ homePage.clickOnAnyHeader();
 
     @And("I click on a random product")
     public void iClickOnARandomProduct() {
+
     }
 }

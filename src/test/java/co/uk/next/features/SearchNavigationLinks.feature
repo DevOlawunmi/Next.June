@@ -1,4 +1,4 @@
-@WIP
+@QA_READY
 Feature: Search Navigation Links
   As a user
   I want to click on any link
