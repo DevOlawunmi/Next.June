@@ -2,6 +2,7 @@ package co.uk.next.stepDefinitions;
 
 import co.uk.next.pages.BasePage;
 import co.uk.next.pages.HomePage;
+import co.uk.next.pages.LogInPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,13 +10,19 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AccountsStepsDefinition extends BasePage {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    LogInPage logInPage = PageFactory.initElements(driver, LogInPage.class);
     @When("I click on any my account link")
     public void iClickOnAnyMyAccountLink() {
         homePage.clickOnAccountLink();
     }
+    @And("Log in page is displayed")
+    public void logInPageIsDisplayed() {
+        //logInPage.isCorrectURLDisplayedForLogin();
+    }
 
     @And("I enter my {string}")
     public void iEnterMy(String arg0) {
+
         
     }
 
@@ -28,4 +35,6 @@ public class AccountsStepsDefinition extends BasePage {
     public void myAccountSummaryIsDisplayed() {
 
     }
+
+
 }
