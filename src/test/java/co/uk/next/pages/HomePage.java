@@ -22,7 +22,7 @@ public class HomePage extends BasePage {
     private WebElement summerStylesLink;
     @FindBy (className = "PrimarynavlinksLink")
     private List<WebElement> searchLinks;
-    @FindBy (xpath = "/html/body/header/div/section/section[3]/ul/li[1]/a")
+    @FindBy (xpath = "/html/body/header/div/section/section[2]/ul/li[1]/a")
     private WebElement accountLink;
 
 
@@ -41,7 +41,8 @@ public class HomePage extends BasePage {
        searchLinks.get(randomNumber).click();
        return new SearchResultPage(driver);
     }
-    public void clickOnAccountLink(){
+    public LogInPage clickOnAccountLink(){
         accountLink.click();
+        return new LogInPage(driver);
     }
 }
