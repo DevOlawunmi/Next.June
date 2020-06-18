@@ -16,6 +16,10 @@ public class LogInPage extends BasePage {
            }
     @FindBy(tagName = "h2")
     private WebElement pageTitle;
+    @FindBy (xpath = "//*[@id=\"EmailOrAccountNumber\"]")
+    private WebElement emailInputField;
+    @FindBy (id = "Password")
+    private WebElement passwordInputField;
 
 
     public void isCorrectURLDisplayedForLogin(String account){
@@ -23,5 +27,11 @@ public class LogInPage extends BasePage {
     }
     public void isPageTitleDisplayed(){
         Assert.assertTrue(pageTitle.isDisplayed());
+    }
+    public void enterEmailAddress (String details){
+        emailInputField.sendKeys(details);
+    }
+    public void enterPassword (String password){
+        passwordInputField.sendKeys(password);
     }
 }

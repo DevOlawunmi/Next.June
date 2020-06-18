@@ -11,7 +11,7 @@ Feature: Sign in to view an existing account
     When I click on any my account link
     And Log in page is displayed
     And I enter my "<details>"
-    And I enter my "<password>"
+    And I enter the correct "<password>"
     And I click on the sign in button
     Then my account summary is displayed
     Examples:

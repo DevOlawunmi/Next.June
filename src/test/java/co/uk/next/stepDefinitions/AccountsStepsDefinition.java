@@ -18,12 +18,16 @@ public class AccountsStepsDefinition extends BasePage {
     @And("Log in page is displayed")
     public void logInPageIsDisplayed() {
         //logInPage.isCorrectURLDisplayedForLogin();
+        logInPage.isPageTitleDisplayed();
     }
 
     @And("I enter my {string}")
-    public void iEnterMy(String arg0) {
-
-        
+    public void iEnterMy(String details) {
+        logInPage.enterEmailAddress(details);
+    }
+    @And("I enter the correct {string}")
+    public void iEnterTheCorrect(String password) {
+        logInPage.enterPassword(password);
     }
 
     @And("I click on the sign in button")
@@ -35,6 +39,7 @@ public class AccountsStepsDefinition extends BasePage {
     public void myAccountSummaryIsDisplayed() {
 
     }
+
 
 
 }
