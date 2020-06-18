@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.net.URL;
-
 public class LogInPage extends BasePage {
     public LogInPage(WebDriver driver){
         DriverLib.driver = driver;
@@ -20,6 +18,8 @@ public class LogInPage extends BasePage {
     private WebElement emailInputField;
     @FindBy (id = "Password")
     private WebElement passwordInputField;
+    @FindBy(id = "SignInNow")
+    private WebElement submitButton;
 
 
     public void isCorrectURLDisplayedForLogin(String account){
@@ -33,5 +33,9 @@ public class LogInPage extends BasePage {
     }
     public void enterPassword (String password){
         passwordInputField.sendKeys(password);
+    }
+    public AccountSummaryPage clickOnSignInButton(){
+        submitButton.click();
+        return new AccountSummaryPage(driver);
     }
 }
