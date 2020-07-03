@@ -8,6 +8,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
+import ru.yandex.qatools.ashot.Screenshot;
 
 public class AccountsStepsDefinition extends BasePage {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
@@ -40,6 +41,12 @@ public class AccountsStepsDefinition extends BasePage {
     @Then("my account summary is displayed")
     public void myAccountSummaryIsDisplayed() {
 accountSummaryPage.isPageTitleDisplayed();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+accountSummaryPage.takeScreenshot();
     }
 
 

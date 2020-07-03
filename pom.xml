@@ -56,6 +56,12 @@
       <artifactId>reporting-plugin</artifactId>
       <version>4.0.52</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+    <dependency>
+      <groupId>ru.yandex.qatools.ashot</groupId>
+      <artifactId>ashot</artifactId>
+      <version>1.5.4</version>
+    </dependency>
 
 
   </dependencies>

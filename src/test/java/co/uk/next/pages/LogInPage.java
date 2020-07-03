@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
 
 public class LogInPage extends BasePage {
     public LogInPage(WebDriver driver){
@@ -23,7 +25,8 @@ public class LogInPage extends BasePage {
 
 
     public void isCorrectURLDisplayedForLogin(String account){
-        driver.getCurrentUrl().contains(account.toLowerCase());
+        String  title =driver.getCurrentUrl();
+        Assert.assertTrue(title.contains(account.toLowerCase()));
     }
     public void isPageTitleDisplayed(){
         Assert.assertTrue(pageTitle.isDisplayed());
@@ -38,4 +41,5 @@ public class LogInPage extends BasePage {
         submitButton.click();
         return new AccountSummaryPage(driver);
     }
+
 }
